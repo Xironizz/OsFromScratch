@@ -6,4 +6,5 @@ making this to understand how operating systems work
 1. qemu
 
 # HOW TO RUN
-make && qemu-system-i386 -fda build/main_floppy.img
+1. MAKE SURE YOU'RE IN OsFromScratch DIRECTORY
+2. make && qemu-system-i386 -fda build/main_floppy.img
