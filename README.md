@@ -3,7 +3,8 @@
 making this to understand how operating systems work
 
 # DEPENDENCIES
-1. qemu
+1. nasm
+2. qemu
 
 # HOW TO RUN
 1. MAKE SURE YOU'RE IN OsFromScratch DIRECTORY
