@@ -12,7 +12,7 @@ making this to understand how operating systems work
 2. make && qemu-system-i386 -fda build/main_floppy.img (linux/mac)
 
 # RECENT CHANGES
-1. Added bootloader/boot.asm to src
+1. Added bootloader/boot.asm to src (major backend changes)
 2. Added kernel/main.asm to src
 3. Changed Makefile to clean and remake build/
 4. Makefile now adds bootloader.bin & kernel.bin to build/
