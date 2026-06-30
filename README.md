@@ -13,7 +13,7 @@ making this to understand how operating systems work
 
 # RECENT CHANGES
 1. Added bootloader/boot.asm to src (major backend changes)
-2. Added kernel/main.asm to src
-3. Changed Makefile to clean and remake build/
-4. Makefile now adds bootloader.bin & kernel.bin to build/
-5. Added test.img (MAYBE removed in future updates?)
+2. Added kernel/main.asm to src (backend reasons)
+3. Changed Makefile to clean and remake build/ (kinda backend??)
+4. Makefile now adds bootloader.bin & kernel.bin to build/ (again backendd)
+5. Added test.img (MAYBE removed in future updates?) (BACKENDDD ;3)
