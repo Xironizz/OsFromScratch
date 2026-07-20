@@ -77,7 +77,6 @@ main:
 
     ; setup stack segment
     mov ss, ax
-    mov sp, 0x7C00     ; stack grows down from where we are loaded in memory
 
     ; print the message
     mov si, msg_helloworld
