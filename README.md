@@ -8,12 +8,12 @@ making this to understand how operating systems work
 2. qemu
 
 # HOW TO RUN
-1. MAKE SURE YOU'RE IN OsFromScratch DIRECTORY
-2. make && qemu-system-i386 -fda build/main_floppy.img (linux/mac)
+1. MAKE SURE YOU'RE IN OsFromScratch DIRECTORY IN TERMINAL (cmd prompt for windows)
+2. make && qemu-system-i386 -fda build/main_floppy.img (linux/mac, havent tested windows yet but planning on it)
 
 # RECENT CHANGES
 1. Added bootloader/boot.asm to src (major backend changes)
 2. Added kernel/main.asm to src (backend reasons)
 3. Changed Makefile to clean and remake build/ (kinda backend??)
-4. Makefile now adds bootloader.bin & kernel.bin to build/ (again backendd)
+4. Makefile now adds bootloader.bin && kernel.bin to build/ (again backendd)
 5. Added test.img (MAYBE removed in future updates?) (BACKENDDD ;3)
